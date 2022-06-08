@@ -3,26 +3,13 @@ body {
 	font-family: "Raleway", sans-serif;
 	background-color: #ffff;
 	
-	width: 1600px;
-	height: 1880px;
 }
 .header {
-    background-color: #ffffff;
+	background-color: #ffffff;
 	color: #212121;
-    
-	width: 1600px;
-	height: 80px;
-	left: 0px;
-	top: 0px;
 }
 .hidden {
-	position: absolute;
-	clip: rect(1px, 1px, 1px, 1px);
-	padding: 0;
-	border: 0;
-	height: 1px;
-	width: 1px;
-	overflow: hidden;
+	
 }
 .link {
 	color: black;
@@ -49,27 +36,25 @@ a {
 	color: #000000;
 	font-family: "Raleway";
 	font-style: normal;
-	font-weight: 700;
-	font-size: 26px;
-	line-height: 31px;
-	/* identical to box height */
 
-	letter-spacing: 0.03em;
 }
 ul {
 	list-style: none;
 }
+li {
+	display: inline-block;
+}
 button {
 	cursor: pointer;
-    border: none;
+	border: none;
 }
 button:hover {
 	background-color: rgb(16, 8, 235);
 	color: #ffff;
 }
 :root {
-  --background-color: #E5E5E5;
-  --color: #212121;
+	--background-color: #e5e5e5;
+	--color: #212121;
 }
 /* основной цвет color: #212121; #757575;  #FFFFFF;  
 rgba(255, 255, 255, 0.6); #2196F3; */
