@@ -5,7 +5,12 @@ body {
 	background-color: #ffffff;
 }
 .container {
+	top: 0px;
+
+	background: #ffffff;
 	font-family: "Roboto";
+	padding-top: 60px;
+	padding-bottom: 60px;
 	background-color: #ffffff;
 	color: #212121;
 }
@@ -47,7 +52,7 @@ body {
 
 	color: #212121;
 }
-*/ .menu-nav-second {
+.menu-nav-second {
 	font-family: "Roboto";
 	font-style: normal;
 	font-weight: 500;
@@ -90,16 +95,16 @@ body {
 /*.post {
 	position: absolute;
 	width: 1600px;
-	height: 800px;
+	height: 00px;
 	left: 0px;
 	top: 80px;
 }*/
 .bg {
 	/*position: absolute;
-width: 1600px;
-height: 600px;
-left: 0px;
-top: 80px;*/
+	width: 1600px;
+	height: 100px;
+	left: 0px;
+	top: 80px;*/
 
 	background: #2f303a;
 }
@@ -118,15 +123,16 @@ top: 80px;*/
 button {
 	cursor: pointer;
 	border: none;
-}
+} 
 button:hover {
-	background-color: rgb(16, 8, 235);
+	background-color: #2196f3;
 	color: #ffff;
 }
 .button {
 	background: #2196f3;
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-	border-radius: 4px;
+	/*box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;*/
+	color: #ffff;
 }
 .features-container {
 }
@@ -141,6 +147,10 @@ button:hover {
 	border: 0;
 	height: 1px;
 	width: 1px;
+
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
 	overflow: hidden;
 }
 
@@ -267,9 +277,17 @@ li {
 	font-style: normal;
 	color: #212121;
 }
-h4 {
+.image-text {
 	font-family: "Roboto";
 	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	/* identical to box height */
+
+	text-align: center;
+	letter-spacing: 0.03em;
+
 	color: #212121;
 }
 h3 {
@@ -292,14 +310,29 @@ h2 {
 	letter-spacing: 0.03em;
 	color: #212121;
 }
-p {
+.hidden-text {
 	font-family: "Roboto";
 	font-style: normal;
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 24px;
+	/* or 171% */
 
 	letter-spacing: 0.03em;
+
+	color: #757575;
+}
+p {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	/* identical to box height */
+
+	text-align: center;
+	letter-spacing: 0.03em;
+
 	color: #757575;
 }
 
